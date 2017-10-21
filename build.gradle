@@ -26,7 +26,6 @@ dependencies {
     // Libs
 
     compile "org.seleniumhq.selenium:selenium-java:3.6.0"
-    compile group: 'org.seleniumhq.selenium', name: 'selenium-firefox-driver', version: '3.6.0'
 
 
     // ------------------------------------------------------------
