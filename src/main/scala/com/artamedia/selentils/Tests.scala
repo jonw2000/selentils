@@ -13,8 +13,8 @@ object Tests extends App with WebDriverUtils {
     // Download gecko - https://github.com/mozilla/geckodriver/releases
     val wd: WebDriver = new FirefoxDriver
     wd.get("https://www.ig.com/uk")
-    println(wd.getPageSource)
-    }
+    println(wd.getPageSource)
+  }
 
   def firefoxTest(): Unit = {
     // Download gecko - https://github.com/mozilla/geckodriver/releases
