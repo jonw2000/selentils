@@ -93,6 +93,9 @@ trait WebDriverUtils {
   def findLinkById(id: String)(implicit driver: WebDriver): WebElement =
     findTagByAttr("a", "id", id)
 
+  def findLinkByHref(href: String)(implicit driver: WebDriver): WebElement =
+    findTagByAttr("a", "href", href)
+
   def findLinksById(id: String)(implicit driver: WebDriver): mutable.Buffer[WebElement] =
     findTagsByAttr("a", "id", id)
 
